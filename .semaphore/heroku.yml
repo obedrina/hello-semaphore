@@ -13,7 +13,7 @@ blocks:
         - name: heroku-http
       env_vars:
         - name: HEROKU_APP_NAME
-          value: semaphore-olga-demo
+          value: semaphore-olga-ruby-demo
       jobs:
       - name: Push code
         commands:
